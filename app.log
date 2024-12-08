@@ -1,0 +1,166 @@
+2024-12-07 00:09:16,280 ERROR Error deleting book: Please select a book to delete.
+2024-12-07 00:09:26,486 ERROR Error deleting book: Please select a book to delete.
+2024-12-07 00:16:55,438 ERROR Error adding book: Please enter valid information for all fields.
+2024-12-07 00:16:58,118 ERROR Error updating book: Please select a book to update.
+2024-12-07 00:17:00,270 ERROR Error deleting book: Please select a book to delete.
+2024-12-07 00:17:10,317 ERROR Error adding book: Please enter valid information for all fields.
+2024-12-07 00:17:17,583 ERROR Error adding book: Please enter valid information for all fields.
+2024-12-07 00:54:57,889 ERROR Unexpected error during search.
+Traceback (most recent call last):
+  File "C:\Users\JTECH SOFT WORLD\OneDrive\Desktop\GROUP PROJECTS\OOP\library_ui.py", line 272, in search_books
+    books = self.db.search_books(search_term)  # Query the database
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JTECH SOFT WORLD\OneDrive\Desktop\GROUP PROJECTS\OOP\database_manager.py", line 41, in search_books
+    return self.execute_query(query, (wildcard_term, wildcard_term, wildcard_term, wildcard_term, wildcard_term))
+           ^^^^^^^^^^^^^^^^^^
+AttributeError: 'DatabaseManager' object has no attribute 'execute_query'
+2024-12-07 00:55:23,680 ERROR Unexpected error during search.
+Traceback (most recent call last):
+  File "C:\Users\JTECH SOFT WORLD\OneDrive\Desktop\GROUP PROJECTS\OOP\library_ui.py", line 272, in search_books
+    books = self.db.search_books(search_term)  # Query the database
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JTECH SOFT WORLD\OneDrive\Desktop\GROUP PROJECTS\OOP\database_manager.py", line 41, in search_books
+    return self.execute_query(query, (wildcard_term, wildcard_term, wildcard_term, wildcard_term, wildcard_term))
+           ^^^^^^^^^^^^^^^^^^
+AttributeError: 'DatabaseManager' object has no attribute 'execute_query'
+2024-12-07 00:58:32,471 ERROR Unexpected error during search.
+Traceback (most recent call last):
+  File "C:\Users\JTECH SOFT WORLD\OneDrive\Desktop\GROUP PROJECTS\OOP\library_ui.py", line 272, in search_books
+    books = self.db.search_books(search_term)  # Query the database
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JTECH SOFT WORLD\OneDrive\Desktop\GROUP PROJECTS\OOP\database_manager.py", line 41, in search_books
+    return self.execute_query(query, (wildcard_term, wildcard_term, wildcard_term, wildcard_term, wildcard_term))
+           ^^^^^^^^^^^^^^^^^^
+AttributeError: 'DatabaseManager' object has no attribute 'execute_query'
+2024-12-07 00:58:44,946 ERROR Unexpected error during search.
+Traceback (most recent call last):
+  File "C:\Users\JTECH SOFT WORLD\OneDrive\Desktop\GROUP PROJECTS\OOP\library_ui.py", line 272, in search_books
+    books = self.db.search_books(search_term)  # Query the database
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JTECH SOFT WORLD\OneDrive\Desktop\GROUP PROJECTS\OOP\database_manager.py", line 41, in search_books
+    return self.execute_query(query, (wildcard_term, wildcard_term, wildcard_term, wildcard_term, wildcard_term))
+           ^^^^^^^^^^^^^^^^^^
+AttributeError: 'DatabaseManager' object has no attribute 'execute_query'
+2024-12-07 00:58:57,164 ERROR Unexpected error during search.
+Traceback (most recent call last):
+  File "C:\Users\JTECH SOFT WORLD\OneDrive\Desktop\GROUP PROJECTS\OOP\library_ui.py", line 272, in search_books
+    books = self.db.search_books(search_term)  # Query the database
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JTECH SOFT WORLD\OneDrive\Desktop\GROUP PROJECTS\OOP\database_manager.py", line 41, in search_books
+    return self.execute_query(query, (wildcard_term, wildcard_term, wildcard_term, wildcard_term, wildcard_term))
+           ^^^^^^^^^^^^^^^^^^
+AttributeError: 'DatabaseManager' object has no attribute 'execute_query'
+2024-12-07 00:59:10,250 ERROR Unexpected error during search.
+Traceback (most recent call last):
+  File "C:\Users\JTECH SOFT WORLD\OneDrive\Desktop\GROUP PROJECTS\OOP\library_ui.py", line 272, in search_books
+    books = self.db.search_books(search_term)  # Query the database
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JTECH SOFT WORLD\OneDrive\Desktop\GROUP PROJECTS\OOP\database_manager.py", line 41, in search_books
+    return self.execute_query(query, (wildcard_term, wildcard_term, wildcard_term, wildcard_term, wildcard_term))
+           ^^^^^^^^^^^^^^^^^^
+AttributeError: 'DatabaseManager' object has no attribute 'execute_query'
+2024-12-07 01:05:08,231 ERROR Unexpected error during search.
+Traceback (most recent call last):
+  File "C:\Users\JTECH SOFT WORLD\OneDrive\Desktop\GROUP PROJECTS\OOP\library_ui.py", line 272, in search_books
+    books = self.db.search_books(search_term)  # Query the database
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JTECH SOFT WORLD\OneDrive\Desktop\GROUP PROJECTS\OOP\database_manager.py", line 41, in search_books
+    return self.execute_query(query, (wildcard_term, wildcard_term, wildcard_term, wildcard_term, wildcard_term))
+           ^^^^^^^^^^^^^^^^^^
+AttributeError: 'DatabaseManager' object has no attribute 'execute_query'
+2024-12-07 01:05:21,315 ERROR Unexpected error during search.
+Traceback (most recent call last):
+  File "C:\Users\JTECH SOFT WORLD\OneDrive\Desktop\GROUP PROJECTS\OOP\library_ui.py", line 272, in search_books
+    books = self.db.search_books(search_term)  # Query the database
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JTECH SOFT WORLD\OneDrive\Desktop\GROUP PROJECTS\OOP\database_manager.py", line 41, in search_books
+    return self.execute_query(query, (wildcard_term, wildcard_term, wildcard_term, wildcard_term, wildcard_term))
+           ^^^^^^^^^^^^^^^^^^
+AttributeError: 'DatabaseManager' object has no attribute 'execute_query'
+2024-12-07 01:05:41,979 ERROR Unexpected error during search.
+Traceback (most recent call last):
+  File "C:\Users\JTECH SOFT WORLD\OneDrive\Desktop\GROUP PROJECTS\OOP\library_ui.py", line 272, in search_books
+    books = self.db.search_books(search_term)  # Query the database
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JTECH SOFT WORLD\OneDrive\Desktop\GROUP PROJECTS\OOP\database_manager.py", line 41, in search_books
+    return self.execute_query(query, (wildcard_term, wildcard_term, wildcard_term, wildcard_term, wildcard_term))
+           ^^^^^^^^^^^^^^^^^^
+AttributeError: 'DatabaseManager' object has no attribute 'execute_query'
+2024-12-07 08:19:14,477 ERROR Unexpected error during search.
+Traceback (most recent call last):
+  File "C:\Users\JTECH SOFT WORLD\OneDrive\Desktop\GROUP PROJECTS\OOP\library_ui.py", line 272, in search_books
+    books = self.db.search_books(search_term)  # Query the database
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JTECH SOFT WORLD\OneDrive\Desktop\GROUP PROJECTS\OOP\database_manager.py", line 41, in search_books
+    return self.execute_query(query, (wildcard_term, wildcard_term, wildcard_term, wildcard_term, wildcard_term))
+           ^^^^^^^^^^^^^^^^^^
+AttributeError: 'DatabaseManager' object has no attribute 'execute_query'
+2024-12-07 08:19:26,875 ERROR Unexpected error during search.
+Traceback (most recent call last):
+  File "C:\Users\JTECH SOFT WORLD\OneDrive\Desktop\GROUP PROJECTS\OOP\library_ui.py", line 272, in search_books
+    books = self.db.search_books(search_term)  # Query the database
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JTECH SOFT WORLD\OneDrive\Desktop\GROUP PROJECTS\OOP\database_manager.py", line 41, in search_books
+    return self.execute_query(query, (wildcard_term, wildcard_term, wildcard_term, wildcard_term, wildcard_term))
+           ^^^^^^^^^^^^^^^^^^
+AttributeError: 'DatabaseManager' object has no attribute 'execute_query'
+2024-12-07 08:34:38,773 ERROR Error occurred during book search.
+Traceback (most recent call last):
+  File "C:\Users\JTECH SOFT WORLD\OneDrive\Desktop\GROUP PROJECTS\OOP\library_ui.py", line 280, in search_books
+    books = self.db.search_books(search_term)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JTECH SOFT WORLD\OneDrive\Desktop\GROUP PROJECTS\OOP\database_manager.py", line 45, in search_books
+    return self.execute_query(query, (term, term, term, term, term))
+           ^^^^^^^^^^^^^^^^^^
+AttributeError: 'DatabaseManager' object has no attribute 'execute_query'
+2024-12-07 08:34:50,964 ERROR Error occurred during book search.
+Traceback (most recent call last):
+  File "C:\Users\JTECH SOFT WORLD\OneDrive\Desktop\GROUP PROJECTS\OOP\library_ui.py", line 280, in search_books
+    books = self.db.search_books(search_term)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JTECH SOFT WORLD\OneDrive\Desktop\GROUP PROJECTS\OOP\database_manager.py", line 45, in search_books
+    return self.execute_query(query, (term, term, term, term, term))
+           ^^^^^^^^^^^^^^^^^^
+AttributeError: 'DatabaseManager' object has no attribute 'execute_query'
+2024-12-07 08:35:02,741 ERROR Error occurred during book search.
+Traceback (most recent call last):
+  File "C:\Users\JTECH SOFT WORLD\OneDrive\Desktop\GROUP PROJECTS\OOP\library_ui.py", line 280, in search_books
+    books = self.db.search_books(search_term)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JTECH SOFT WORLD\OneDrive\Desktop\GROUP PROJECTS\OOP\database_manager.py", line 45, in search_books
+    return self.execute_query(query, (term, term, term, term, term))
+           ^^^^^^^^^^^^^^^^^^
+AttributeError: 'DatabaseManager' object has no attribute 'execute_query'
+2024-12-07 08:41:07,467 ERROR Error occurred during book search.
+Traceback (most recent call last):
+  File "C:\Users\JTECH SOFT WORLD\OneDrive\Desktop\GROUP PROJECTS\OOP\library_ui.py", line 280, in search_books
+    books = self.db.search_books(search_term)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JTECH SOFT WORLD\OneDrive\Desktop\GROUP PROJECTS\OOP\database_manager.py", line 45, in search_books
+    return self.execute_query(query, (term, term, term, term, term))
+           ^^^^^^^^^^^^^^^^^^
+AttributeError: 'DatabaseManager' object has no attribute 'execute_query'
+2024-12-07 08:44:07,250 ERROR Error occurred during book search.
+Traceback (most recent call last):
+  File "C:\Users\JTECH SOFT WORLD\OneDrive\Desktop\GROUP PROJECTS\OOP\library_ui.py", line 280, in search_books
+    books = self.db.search_books(search_term)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JTECH SOFT WORLD\OneDrive\Desktop\GROUP PROJECTS\OOP\database_manager.py", line 45, in search_books
+    return self.execute_query(query, (term, term, term, term, term))
+           ^^^^^^^^^^^^^^^^^^
+AttributeError: 'DatabaseManager' object has no attribute 'execute_query'
+2024-12-07 08:44:15,275 ERROR Error occurred during book search.
+Traceback (most recent call last):
+  File "C:\Users\JTECH SOFT WORLD\OneDrive\Desktop\GROUP PROJECTS\OOP\library_ui.py", line 280, in search_books
+    books = self.db.search_books(search_term)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JTECH SOFT WORLD\OneDrive\Desktop\GROUP PROJECTS\OOP\database_manager.py", line 45, in search_books
+    return self.execute_query(query, (term, term, term, term, term))
+           ^^^^^^^^^^^^^^^^^^
+AttributeError: 'DatabaseManager' object has no attribute 'execute_query'
+2024-12-07 08:46:23,146 ERROR Error occurred during book search.
+Traceback (most recent call last):
+  File "C:\Users\JTECH SOFT WORLD\OneDrive\Desktop\GROUP PROJECTS\OOP\library_ui.py", line 280, in search_books
+    books = self.db.search_books(search_term)
+            ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DatabaseManager' object has no attribute 'search_books'
